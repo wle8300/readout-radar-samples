@@ -1,0 +1,315 @@
+{
+  "schema": 1,
+  "version": "20261118T0212Z",
+  "generatedAt": "2026-11-18T03:09:43Z",
+  "frameTimes": [
+    "2026-11-18T01:12:17Z",
+    "2026-11-18T01:15:51Z",
+    "2026-11-18T01:20:13Z",
+    "2026-11-18T01:24:14Z",
+    "2026-11-18T01:28:01Z",
+    "2026-11-18T01:31:24Z",
+    "2026-11-18T01:36:02Z",
+    "2026-11-18T01:39:57Z",
+    "2026-11-18T01:43:57Z",
+    "2026-11-18T01:48:12Z",
+    "2026-11-18T01:51:56Z",
+    "2026-11-18T01:56:07Z",
+    "2026-11-18T01:59:55Z",
+    "2026-11-18T02:03:56Z",
+    "2026-11-18T02:08:10Z",
+    "2026-11-18T02:12:06Z"
+  ],
+  "loopSeconds": 10,
+  "fps": 24,
+  "framesPerStep": 15,
+  "clock": "frameTimes[i] is fully shown at i*framesPerStep/fps seconds into the loop; every video starts on frame 0 and loops",
+  "region": {
+    "west": -121.640625,
+    "south": 44.590467,
+    "east": -113.203125,
+    "north": 49.837982
+  },
+  "attribution": "Radar: NOAA/NWS nowCOAST base_reflectivity_mosaic",
+  "levels": [
+    {
+      "id": "wide",
+      "tileZoom": 7,
+      "mapZoomMin": 0,
+      "mapZoomMax": 7.5,
+      "parts": [
+        {
+          "id": "wide",
+          "bounds": {
+            "west": -121.640625,
+            "south": 44.590467,
+            "east": -113.203125,
+            "north": 49.837982
+          },
+          "tileRange": {
+            "zoom": 7,
+            "xMin": 20.75,
+            "xMax": 23.75,
+            "yMin": 43.5,
+            "yMax": 46.25,
+            "note": "tile edges at this zoom, max not included; fractions fall inside a tile"
+          },
+          "video": "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/wide.mp4",
+          "videoType": "h264-packed",
+          "videoFallback": null,
+          "packed": {
+            "alpha": "bottom",
+            "color": "premultiplied",
+            "alphaRange": "alpha = grey level 0..255 (decoded RGB, any channel)"
+          },
+          "still": "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/wide-last.png",
+          "frameStills": [
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/wide-frames/00.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/wide-frames/01.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/wide-frames/02.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/wide-frames/03.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/wide-frames/04.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/wide-frames/05.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/wide-frames/06.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/wide-frames/07.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/wide-frames/08.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/wide-frames/09.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/wide-frames/10.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/wide-frames/11.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/wide-frames/12.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/wide-frames/13.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/wide-frames/14.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/wide-frames/15.webp"
+          ],
+          "width": 768,
+          "height": 704,
+          "videoWidth": 768,
+          "videoHeight": 1408,
+          "bytes": 1109180,
+          "stillBytes": 211030,
+          "frameStillsBytes": 852806
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "tileZoom": 8,
+      "mapZoomMin": 7.5,
+      "mapZoomMax": 8.5,
+      "parts": [
+        {
+          "id": "medium",
+          "bounds": {
+            "west": -121.640625,
+            "south": 44.590467,
+            "east": -113.203125,
+            "north": 49.837982
+          },
+          "tileRange": {
+            "zoom": 8,
+            "xMin": 41.5,
+            "xMax": 47.5,
+            "yMin": 87.0,
+            "yMax": 92.5,
+            "note": "tile edges at this zoom, max not included; fractions fall inside a tile"
+          },
+          "video": "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/medium.mp4",
+          "videoType": "h264-packed",
+          "videoFallback": null,
+          "packed": {
+            "alpha": "bottom",
+            "color": "premultiplied",
+            "alphaRange": "alpha = grey level 0..255 (decoded RGB, any channel)"
+          },
+          "still": "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/medium-last.png",
+          "frameStills": [
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/medium-frames/00.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/medium-frames/01.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/medium-frames/02.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/medium-frames/03.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/medium-frames/04.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/medium-frames/05.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/medium-frames/06.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/medium-frames/07.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/medium-frames/08.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/medium-frames/09.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/medium-frames/10.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/medium-frames/11.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/medium-frames/12.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/medium-frames/13.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/medium-frames/14.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/medium-frames/15.webp"
+          ],
+          "width": 1536,
+          "height": 1408,
+          "videoWidth": 1536,
+          "videoHeight": 2816,
+          "bytes": 2571787,
+          "stillBytes": 648261,
+          "frameStillsBytes": 2359740
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "tileZoom": 9,
+      "mapZoomMin": 8.5,
+      "mapZoomMax": 22,
+      "parts": [
+        {
+          "id": "close-spokane",
+          "bounds": {
+            "west": -118.828125,
+            "south": 46.55886,
+            "east": -116.015625,
+            "north": 48.458352
+          },
+          "tileRange": {
+            "zoom": 9,
+            "xMin": 87.0,
+            "xMax": 91.0,
+            "yMin": 177.0,
+            "yMax": 181.0,
+            "note": "tile edges at this zoom, max not included; fractions fall inside a tile"
+          },
+          "video": "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-spokane.mp4",
+          "videoType": "h264-packed",
+          "videoFallback": null,
+          "packed": {
+            "alpha": "bottom",
+            "color": "premultiplied",
+            "alphaRange": "alpha = grey level 0..255 (decoded RGB, any channel)"
+          },
+          "still": "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-spokane-last.png",
+          "frameStills": [
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-spokane-frames/00.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-spokane-frames/01.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-spokane-frames/02.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-spokane-frames/03.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-spokane-frames/04.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-spokane-frames/05.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-spokane-frames/06.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-spokane-frames/07.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-spokane-frames/08.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-spokane-frames/09.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-spokane-frames/10.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-spokane-frames/11.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-spokane-frames/12.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-spokane-frames/13.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-spokane-frames/14.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-spokane-frames/15.webp"
+          ],
+          "width": 1024,
+          "height": 1024,
+          "videoWidth": 1024,
+          "videoHeight": 2048,
+          "bytes": 231531,
+          "stillBytes": 70069,
+          "frameStillsBytes": 372518
+        },
+        {
+          "id": "close-coeur-d-alene",
+          "bounds": {
+            "west": -118.125,
+            "south": 46.55886,
+            "east": -115.3125,
+            "north": 48.458352
+          },
+          "tileRange": {
+            "zoom": 9,
+            "xMin": 88.0,
+            "xMax": 92.0,
+            "yMin": 177.0,
+            "yMax": 181.0,
+            "note": "tile edges at this zoom, max not included; fractions fall inside a tile"
+          },
+          "video": "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-coeur-d-alene.mp4",
+          "videoType": "h264-packed",
+          "videoFallback": null,
+          "packed": {
+            "alpha": "bottom",
+            "color": "premultiplied",
+            "alphaRange": "alpha = grey level 0..255 (decoded RGB, any channel)"
+          },
+          "still": "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-coeur-d-alene-last.png",
+          "frameStills": [
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-coeur-d-alene-frames/00.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-coeur-d-alene-frames/01.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-coeur-d-alene-frames/02.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-coeur-d-alene-frames/03.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-coeur-d-alene-frames/04.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-coeur-d-alene-frames/05.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-coeur-d-alene-frames/06.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-coeur-d-alene-frames/07.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-coeur-d-alene-frames/08.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-coeur-d-alene-frames/09.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-coeur-d-alene-frames/10.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-coeur-d-alene-frames/11.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-coeur-d-alene-frames/12.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-coeur-d-alene-frames/13.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-coeur-d-alene-frames/14.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-coeur-d-alene-frames/15.webp"
+          ],
+          "width": 1024,
+          "height": 1024,
+          "videoWidth": 1024,
+          "videoHeight": 2048,
+          "bytes": 776808,
+          "stillBytes": 245856,
+          "frameStillsBytes": 1176750
+        },
+        {
+          "id": "close-palouse",
+          "bounds": {
+            "west": -118.125,
+            "south": 45.58329,
+            "east": -115.3125,
+            "north": 47.517201
+          },
+          "tileRange": {
+            "zoom": 9,
+            "xMin": 88.0,
+            "xMax": 92.0,
+            "yMin": 179.0,
+            "yMax": 183.0,
+            "note": "tile edges at this zoom, max not included; fractions fall inside a tile"
+          },
+          "video": "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-palouse.mp4",
+          "videoType": "h264-packed",
+          "videoFallback": null,
+          "packed": {
+            "alpha": "bottom",
+            "color": "premultiplied",
+            "alphaRange": "alpha = grey level 0..255 (decoded RGB, any channel)"
+          },
+          "still": "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-palouse-last.png",
+          "frameStills": [
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-palouse-frames/00.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-palouse-frames/01.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-palouse-frames/02.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-palouse-frames/03.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-palouse-frames/04.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-palouse-frames/05.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-palouse-frames/06.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-palouse-frames/07.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-palouse-frames/08.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-palouse-frames/09.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-palouse-frames/10.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-palouse-frames/11.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-palouse-frames/12.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-palouse-frames/13.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-palouse-frames/14.webp",
+            "https://wle8300.github.io/readout-radar-samples/v/20261118T0212Z/close-palouse-frames/15.webp"
+          ],
+          "width": 1024,
+          "height": 1024,
+          "videoWidth": 1024,
+          "videoHeight": 2048,
+          "bytes": 500104,
+          "stillBytes": 143460,
+          "frameStillsBytes": 802872
+        }
+      ]
+    }
+  ]
+}
